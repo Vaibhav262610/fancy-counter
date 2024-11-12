@@ -28,7 +28,7 @@ function App() {
     <>
       <div className='bg-gray-800 flex-col flex justify-center items-center w-full h-screen'> 
         <div className='bg-white w-[255px] py-4 rounded-tl-lg rounded-tr-lg flex flex-col items-center'>
-          {limit ? <h1 className='text-xl text-center font-semibold'>FANCY <br/> COUNTER</h1> : <h1 className='text-xl text-center font-semibold'>LIMIT <br /> REACHED !!</h1>}
+          {limit ? <h1 className='text-xl text-center font-semibold'>FANCY<br/>COUNTER</h1> : <h1 className='text-xl text-center font-semibold'>LIMIT <br /> REACHED !!</h1>}
           <h1 className='text-9xl font-bold mt-3'>{num}</h1>
           <button onClick={resetNum} className='text-xs mt-2 text-gray-400 font-semibold'>RESET</button>
         </div>
